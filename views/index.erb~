@@ -1,0 +1,21 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+</head>
+<body>
+  <p>
+    <a href="about">アカウント作成</a>
+  </p>
+  <form action="confirm" method="POST">
+    <div>
+      名前:<input type="text" name="name" value="">
+    </div>
+    <div>
+      email:<input type="text" name="email" value="">
+    </div>
+    <div>
+      <input type="submit" value="送信する">
+    </div>
+  </form>
+</body>
+</html>
